@@ -14,5 +14,5 @@ Anime search via [Anilist.co](https://anilist.co/)
 * "Hey Mycroft, search anime %some-anime-name or $some-anime-keywords"
 
 ## Credits 
-PyMoe - https://github.com/ccubed/PyMoe - Author: https://github.com/ccubed
-(AIX) Aditya Mehra
+* PyMoe - https://github.com/ccubed/PyMoe - Author: https://github.com/ccubed
+* (AIX) Aditya Mehra
