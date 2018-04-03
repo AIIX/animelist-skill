@@ -1,0 +1,7 @@
+{
+  "utterance": "search",
+  "intent_type": "AnimeSearch",
+  "intent": {
+    "AnimeSearchKeyword": "anime"
+  }
+}

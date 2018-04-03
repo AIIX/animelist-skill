@@ -1,0 +1,42 @@
+{
+    "name": "AnimeList",
+    "skillMetadata": {
+        "sections": [
+            {
+                "name": "AnimeList Settings",
+                "fields": [
+                    {
+                        "name": "authurl",
+                        "type": "text",
+                        "label": "authurl",
+                        "value": "https://anilist.co/api"
+                    },
+                    {
+                        "name": "apiurl",
+                        "type": "text",
+                        "label": "apiurl",
+                        "value": "https://graphql.anilist.co"
+                    },
+                    {
+                        "name": "csecret",
+                        "type": "text",
+                        "label": "csecret",
+                        "value": "None"
+                    },
+                    {
+                        "name": "cid",
+                        "type": "text",
+                        "label": "cid",
+                        "value": "None"
+                    },
+                    {
+                        "name": "token",
+                        "type": "text",
+                        "label": "token",
+                        "value": "None"
+                    }
+                ]
+            }
+        ]
+    }
+}
