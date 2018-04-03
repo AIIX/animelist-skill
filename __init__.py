@@ -12,7 +12,7 @@ from mycroft.util import read_stripped_lines
 from mycroft.util.log import getLogger
 from mycroft.messagebus.message import Message
 
-__author__ = 'aix'
+__author__ = 'aix' #Credits PyMoe - https://github.com/ccubed/PyMoe - Author: https://github.com/ccubed
 
 LOGGER = getLogger(__name__)
 
