@@ -75,7 +75,7 @@ class AnimeListSkill(MycroftSkill):
                           json={'query': query_string, 'variables': vardata})
         responseresult = r.text
         self.__genwebview(responseresult)
-        self.enclosure.ws.emit(Message("data", {'desktop': {'url': self.html_index + 'animesearchresult.html'}}))
+        self.enclosure.bus.emit(Message("data", {'desktop': {'url': self.html_index + 'animesearchresult.html'}}))
         speakMessage = "Following Series Were Found: {0}, {1}, {2}".format(res0title, res1title, res2title)
         self.speak(speakMessage)
         
